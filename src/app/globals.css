@@ -2,25 +2,52 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1523;
+
+  /* Paleta CICLOS */
+  --color-roxo-950: #2a0f33;
+  --color-roxo-900: #3d1548;
+  --color-roxo-800: #4f1c5e;
+  --color-roxo-700: #6b2c7a;
+  --color-roxo-600: #7f3a90;
+  /* Cor primária da marca */
+  --color-roxo-500: #6b2c7a;
+  --color-roxo-100: #f3e9f6;
+  --color-roxo-50: #faf6fb;
+
+  --color-champagne-500: #c9a25c;
+  --color-champagne-400: #d9bc82;
+  --color-champagne-300: #e8d5aa;
+  --color-champagne-100: #f5ecd9;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-roxo-950: var(--color-roxo-950);
+  --color-roxo-900: var(--color-roxo-900);
+  --color-roxo-800: var(--color-roxo-800);
+  --color-roxo-700: var(--color-roxo-700);
+  --color-roxo-600: var(--color-roxo-600);
+  --color-roxo-500: var(--color-roxo-500);
+  --color-roxo-100: var(--color-roxo-100);
+  --color-roxo-50: var(--color-roxo-50);
+
+  --color-champagne-500: var(--color-champagne-500);
+  --color-champagne-400: var(--color-champagne-400);
+  --color-champagne-300: var(--color-champagne-300);
+  --color-champagne-100: var(--color-champagne-100);
+
+  --font-serif: var(--font-fraunces);
+  --font-sans: var(--font-inter);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
