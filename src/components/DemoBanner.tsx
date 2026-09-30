@@ -1,7 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-// TODO: substituir pelo número do Theo (formato: 55 + DDD + número, só dígitos)
-const WHATSAPP_THEO = "55XXXXXXXXXXX";
+const WHATSAPP_THEO = "5521967543780";
 const MENSAGEM = "Olá Theo, gostaria de uma nova oferta para o site da Dois Ciclos.";
 
 const whatsappHref = `https://wa.me/${WHATSAPP_THEO}?text=${encodeURIComponent(MENSAGEM)}`;

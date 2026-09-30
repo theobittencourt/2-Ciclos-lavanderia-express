@@ -69,14 +69,13 @@ export function Localizacao() {
               <Phone className="mt-0.5 h-5 w-5 shrink-0 text-roxo-700" />
               <div>
                 <p className="font-serif text-lg text-roxo-950">WhatsApp</p>
-                <a
-                  href="https://wa.me/5521972225300"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-roxo-700 underline decoration-champagne-400 underline-offset-4 hover:text-roxo-950"
+                <span
+                  aria-disabled="true"
+                  title="Indisponível na versão demonstrativa"
+                  className="cursor-not-allowed text-sm text-roxo-950/40 line-through"
                 >
                   (21) 97222-5300
-                </a>
+                </span>
               </div>
             </div>
 
