@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { Smartphone } from "lucide-react";
+import { DemoBanner } from "@/components/DemoBanner";
 
 const links = [
   { href: "#diferenciais", label: "Diferenciais" },
@@ -29,6 +30,7 @@ export function Header() {
       style={{ background }}
       className="fixed inset-x-0 top-0 z-50 backdrop-blur-sm"
     >
+      <DemoBanner />
       <motion.div
         style={{ opacity: borderOpacity }}
         className="absolute inset-x-0 bottom-0 h-px bg-white/15"

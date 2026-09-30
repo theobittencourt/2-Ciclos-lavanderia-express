@@ -23,7 +23,7 @@ export function Hero() {
       ref={ref}
       className="relative flex min-h-[100svh] items-center overflow-hidden bg-roxo-950"
     >
-      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-6 pb-20 pt-40 sm:px-10 sm:pt-32 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-6 pb-20 pt-56 sm:px-10 sm:pt-44 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
         <motion.div style={{ opacity }} className="max-w-2xl">
           <motion.span
             initial={{ opacity: 0, y: 12 }}
